@@ -9,7 +9,7 @@ from utils.datasets import letterbox
 
 
 # --- 參數設定 ---
-video_path = '1009-1.mp4'  # 替換成您的影片路徑
+video_path = r"C:\Users\User\SynologyDrive\py\aaa\test2-1.avi"  # 替換成您的影片路徑
 weights_path = 'yolov7-w6-pose.pt' # 替換成您的模型權重路徑
 device_str = '0'  # 'cpu' 或 'cuda:0' (如果支援 CUDA)
 image_size = 1920  # 模型輸入的圖片大小
